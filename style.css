@@ -1,0 +1,107 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@300&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+  }
+
+  body {
+      font-family: 'Lato', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+  .outer-box {
+      border: 2px solid black;
+      height: 100vh;
+      width: 100vw;
+      background-image: linear-gradient(to bottom right, rgb(26, 26, 154), rgb(78, 118, 87));
+  }
+
+  .inner-box {
+      border: 2px solid rgb(49, 23, 166);
+      margin: auto;
+      width: 400px;
+      position: relative;
+      box-shadow: 2px 2px 5px blue;
+      top: 40%;
+      transform: translatey(-50%);
+      z-index: 1;
+  }
+
+  .signup-header h1 {
+      font-size: 2.5rem;
+      color: white;
+  }
+  .signup-header p{
+    font-size: 1rem;
+    color: white;
+  }
+  .signup-header{
+    margin: 0px 54px;
+  }
+  .signup-body{
+    margin: 0px 20px;
+    /* padding: 20px 0px; */
+  }
+  .signup-body p{
+    margin: 20px 0px;
+  }
+  .signup-body label{
+    display: block;
+    color: white;
+    /* width: 100%; */
+    font-weight: bold;
+  }
+  .signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(194, 172, 172);
+  }
+  .signup-body p input[type="submit"]{
+    background-color: rgb(46, 46, 141);
+    width: 70%;
+    /* text-align: center; */
+    display: block;
+    margin: auto;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .signup-body p input[type="submit"]:hover{
+    background-color: rgb(21, 21, 228);
+  }
+  footer p{
+    color: white;
+    text-align: center;
+  }
+  footer p a{
+    color: rgb(255, 0, 187);
+    font-size: 1.5rem;
+}
+footer p a:hover{
+      font-weight: bold;
+
+  }
+  .circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid black;
+    position: absolute;
+    background-image: linear-gradient(to bottom right, rgb(29, 29, 210), rgb(39, 180, 74));
+  }
+  .c1{
+    top: 100px;
+    left: 40px;
+  }
+  .c2{
+    top: 200px;
+    right: 40px;
+  }
+  ::placeholder {
+    color: rgb(56, 89, 75);
+    font-size: medium;
+    font-weight: bold;
+  }
